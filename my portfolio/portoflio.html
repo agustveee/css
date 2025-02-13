@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio showcasing projects and skills">
+    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!--About Section-->
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="portfolio.png" alt="Trixia Vanessa Torrejos" style="width: 2in; height: 2in; display: block; margin: 0 auto 10px;">
+            <p>Hi, I'm Trixia Vanessa Torrejos, a senior Computer Engineering student at Bohol Island State University - Main Campus. While I have a strong focus on the hardware side of technology, I also have a keen interest in software. I enjoy working on creative and technical projects that push my skills and help me grow.</p>
+            <p>Beyond academics, I find relaxation in watching movies and K-dramas, as they allow me to escape into different worlds. I appreciate the storytelling, emotions, and cinematography that make each film or series unique. I also love going on nature trips, whether it's hiking, exploring scenic landscapes, or simply enjoying the fresh air. Being surrounded by nature helps clear my mind and recharge my energy.</p>
+        </section>
+        
+        <!--Projects Section-->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>RFID Scanner with Parental Notifications</td>
+                        <td>Modern solution designed to enhance communication between schools and parents. In today’s fast-paced environment, ensuring timely and accurate communication about students’ school activities is crucial for fostering trust and engagement between schools and families.</td>
+                        <td>2025</td>
+                    </tr>
+                    <tr>
+                        <td>Simple Automatic Car Parking Toll Gate System Using Arduino And Ultrasonic Sensor</td>
+                        <td>Prototype automated car parking toll gate system using Arduino and ultrasonic sensor to provide a convenient and efficient solution for managing parking facilities.</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>Machine Problem</td>
+                        <td>Essential numerical methods like Newton-Raphson, Jacobi Iteration, and Romberg Integration to solve equations, interpolate data, and integrate functions easily.</td>
+                        <td>2024</td>
+                    <tr>
+                        <td>Sumobot</td>
+                        <td>Autonomous robot that detects and pushes opponents out of the ring.</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>Path Finder</td>
+                        <td>Navigates obstacles to find the optimal route.</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>Energy-Efficient Automatic Night Lamp</td>
+                        <td>Adjust brightness based on ambient light, ensuring smart illumination and energy savings.</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>BCD multiplier</td>
+                        <td>Performs multiplication on Binary-Coded Decimal (BCD) numbers, ensuring accurate decimal arithmetic in digital systems.</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>FablabAR++</td>
+                        <td>Enabling users to scan image targets for instant access to machine details and product information.</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>Noise Buster</td>
+                        <td>Noise remover with customizable filters, audio comparison, and seamless device integration.</td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>AC/DC Converter</td>
+                        <td>converts alternating current (AC) to direct current (DC), providing stable and regulated power for electronic devices.</td>
+                        <td>2022</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <!--Contact Section-->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <ul>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </ul>
+              
+                <ul>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </ul>
+                
+                <fieldset>
+                    <legend>How did you hear about this portfolio?</legend>
+                        <label><input type="radio" name="source" value="friend"> Friend</label>
+                        <label><input type="radio" name="source" value="social"> Social Media</label>
+                        <label><input type="radio" name="source" value="search"> Search Engine</label>
+                        <label><input type="radio" name="source" value="other"> Other</label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Skills/Interests</legend>
+                        <label><input type="checkbox" name="skills" value="webdev"> Web Development</label>
+                        <label><input type="checkbox" name="skills" value="design"> Design</label>
+                        <label><input type="checkbox" name="skills" value="photography"> Photography</label>
+                </fieldset>
+                    
+                <label for="comments">Comments or messages:</label>
+                <ul><textarea id="comments" name="comments" rows="4"></textarea></ul>
+                
+                <ul><button type="submit">Submit</button></ul>
+            </form>
+        </section>
+    </main>
+    
+    <!--Footer Section-->
+    <footer>
+        <p>&copy; Trixia Vanesa Torrejos 2025</p>
+    </footer>
+
+</body>
+</html>
