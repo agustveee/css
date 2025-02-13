@@ -1,0 +1,40 @@
+/* Center the layout */
+body {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adds space between elements */
+}
+
+/* Header */
+header {
+    background-color: #ffcc00;
+    height: 150px;
+}
+
+/* Main Section */
+main {
+    display: flex;
+    gap: 10px; /* Adds space between aside and section */
+}
+
+/* Sidebar*/
+aside {
+    background-color: #9b59b6;
+    height: 300px;
+    width: 300px;
+}
+
+/* Main Content*/
+section {
+    background-color: #1abc9c;
+    height: 300px;
+    flex: 1; /* Takes the remaining space */
+}
+
+/* Footer */
+footer {
+    background-color: #e74c3c;
+    height: 100px;
+}
