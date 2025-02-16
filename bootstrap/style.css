@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #6f42c1;
+    padding: 15px 30px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    background: white;
+    color: #6f42c1;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.search {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px 20px;
+}
+
+.hero-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.logo-large {
+    font-size: 60px;
+    font-weight: bold;
+    background: white;
+    color: #6f42c1;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+p {
+    color: #cfd4da;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.command {
+    background: #343a40;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.btn {
+    background: #6f42c1;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #5a359e;
+}
+
+.version a {
+    color: #6f42c1;
+    text-decoration: none;
+}
+
+/* Get Started Section */
+.start {
+    padding: 40px 20px;
+    background: #1b1e21;
+    margin-top: 20px;
+}
+
+.icon {
+    font-size: 30px;
+    background: #6f42c1;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.link {
+    color: #6f42c1;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
