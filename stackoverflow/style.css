@@ -1,0 +1,491 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* Header Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 20px;
+    max-width: 1264px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 40px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 0px;
+}
+
+.nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.navbar nav {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar input[type="search"] {
+    width: 570px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    row-gap: 5px;
+}
+
+.btn-primary {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 15px;
+    border-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: white;
+    
+}
+
+.btn-secondary {
+    background-color: #075EC3;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    max-width: 1264px;
+    margin: 0 auto;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 220px;
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar a {
+    color: black;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-gap {
+    margin-bottom: 20px;
+}
+
+.nav-gap p {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0 10px;
+}
+
+.nav-group {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.nav-group a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-group li {
+    display: flex;
+    align-items: right;
+    padding: 10px 0;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+.nav-group img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* Main Content */
+.content {
+    flex-grow: 1;
+    padding-left: 40px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1045px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero h1 {
+    color: #2d2d2d;
+    font-size: 45px;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content p {
+    font-size: 17px;
+}
+
+.highlight {
+    background-image: url('background-image.png');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    opacity: 1;
+    padding: 10px  20px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    height: 30px;
+}
+
+.hero-buttons .btn-secondary {
+    margin-right: 10px;
+}
+
+.hero-image img {
+    max-width: 1045px;
+    height: auto;
+    width: 500px;
+}
+
+.blue-letter {
+    color: #0074cc;
+    text-decoration: none;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 1px solid #ddd; /* Adding border */
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    max-width: 1045px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    position: relative;
+}
+
+.section-title {
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.teams-logo {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.teams-logo img {
+    width: 220px;
+    height: auto;
+    display: block;
+}
+
+/* Left side: Text and buttons */
+.service-card.teams {
+    max-width: 50%;
+}
+
+.service-card.teams p {
+    font-size: 17px;
+    color: #333;
+    margin-bottom: 28px;
+}
+
+.service-card.teams .btn-secondary {
+    background-color: #0074cc;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.service-card.teams a {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.blue-wline {
+    color: #0074cc;
+    text-decoration: underline;
+}
+
+/* Right side: Image */
+.home-teams {
+    max-width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home-teams img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: -20px;
+    margin-right: -20px;
+}
+
+/* Overflow AI Section */
+.overflow-ai {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 1px solid #444; /* Subtle border for contrast */
+    border-radius: 10px;
+    background-color: #2d2d2d; /* Dark gray background */
+    padding: 20px;
+    max-width: 1045px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    position: relative;
+}
+
+.overflow-ai-logo {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.overflow-ai-logo img {
+    width: 230px;
+    height: auto;
+    display: block;
+}
+
+/* Left side: Text */
+.service-card {
+    max-width: 50%;
+}
+
+.service-card p::first-word {
+    font-weight: bold;
+}
+
+.service-card p {
+    font-size: 17px;
+    color: white;
+    margin-bottom: 45px;
+}
+
+/* Overflow AI Button */
+.btn-orange {
+    background-color: #F48024;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Right side: Image */
+.home-overflowai {
+    max-width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home-overflowai img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: -20px;
+    margin-right: -20px;
+}
+
+/* Advertising & API Section */
+.advertising-api-section {
+    max-width: 1045px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+/* List container */
+.advertising-api-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Individual Cards */
+.advertising-api-card {
+    flex: 1; 
+    text-align: left;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+/* Images inside cards */
+.advertising-api-card img {
+    width: 220px;
+    height: auto;
+    display: block;
+}
+
+/* Paragraph styles */
+.advertising-api-card p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+.advertising-api-card .btn-secondary {
+    background-color: #0074cc;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Link styles */
+.blue-wline {
+    margin-top: 10px;
+    color: #0074cc;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+/* Work Section */
+.work {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    max-width: 1045px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    position: relative;
+    gap: 15px;
+}
+
+/* Stack Overflow Logo */
+.logo-stackoverflow {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.logo-stackoverflow img {
+    width: 230px;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* Left side: Text content */
+.work-card {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.work-card p {
+    font-size: 17px;
+    color: black; /* Matches dark theme */
+    margin: 0;
+}
+
+/* Button styling */
+.work-card .btn-secondary {
+    background-color: #0074cc;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Right side: Image */
+.work-image {
+    position: absolute;
+    top: -70px;
+    right: -18px;
+    max-width: 50%;
+}
+
+.work-image img {
+    max-width: 500px;
+    height: 300px;
+    border-radius: 4px;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    background-color: white;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack Overflow Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container navbar">
+            <img src="logo.png" alt="Stack Overflow Logo" class="logo">
+            <nav class="nav-links">
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Overflow AI</a>
+            </nav>
+            <form class="search-form">
+                <input type="search" id="searchInput" placeholder="Search..." required>    
+                <button type="submit" class="btn-primary">Log In</button>
+                <button type="submit" class="btn-secondary">Sign Up</button>
+            </form>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="main-container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <nav>
+                <ul class="nav-group">
+                    <li><img src="home.png" alt="Home Icon"> <a href="#">Home</a></li>
+                    <li><img src="questions.png" alt="Questions Icon"> <a href="#">Questions</a></li>
+                    <li><img src="tags.png" alt="Tags Icon"> <a href="#">Tags</a></li>
+                </ul>
+                <div class="nav-gap"></div>
+                <ul class="nav-group">
+                    <li><img src="users.png" alt="Users Icon"> <a href="#">Users</a></li>
+                    <li><img src="companies.png" alt="Companies Icon"> <a href="#">Companies</a></li>
+                </ul>
+                <div class="nav-gap"></div>
+                <ul class="nav-group">
+                    <p>LABS</p>
+                    <li><img src="discussions.png" alt="Discussions Icon"> <a href="#">Discussions</a></li>
+                </ul>
+            </nav>
+        </aside>        
+
+        <!-- Main Content -->
+        <main class="content">
+            
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Every <span class="highlight">developer</span> has a tab open to Stack Overflow.</h1>
+                    <p>For over 15 years we’ve been the Q&A platform of choice that millions of people visit every month to ask questions, learn, and share technical knowledge.</p>
+                    <div class="hero-buttons">
+                        <button class="btn-secondary">Sign up</button>
+                        <a href="#" class="blue-letter">Visit the community</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="illo-home-hero.png" alt="Hero Illustration">
+                </div>
+            </section>            
+
+            <!-- Services Section -->
+            <h3 class="section-title">Services for companies of all shapes & sizes.</h3>
+            <section class="services">
+                <div class="service-card teams">
+                    <div class="teams-logo">
+                        <img src="teams-logo.png" alt="Teams Logo">
+                    </div>
+                    <p>Where developers and technologists share private knowledge with coworkers.</p>
+                    <button class="btn-secondary">Explore Teams</button>
+                    <a href="#" class="blue-wline">Try for free</a>
+                </div>
+                <div class="home-teams">
+                    <img src="home-teams.png" alt="Teams Image">
+                </div>
+            </section>
+
+            <!-- Overflow AI Section -->
+            <section class="overflow-ai">
+                <div class="service-card">
+                    <div class="overflow-ai-logo">
+                        <img src="overflowai.png" alt="Overflow AI Logo">
+                    </div>
+                    <p><strong>Now available!</strong> A suite of GenAI tools for Stack Overflow for Teams that helps connect employees to knowledge faster.</p>
+                    <button class="btn-orange">Supercharge your team &gt;</button>
+                </div>
+                <div class="home-overflowai">
+                    <img src="home-overflowai.png" alt="Home Overflow AI Image">
+                </div>
+            </section>
+
+            <!-- Advertising & API Section -->
+            <section class="advertising-api-section">
+                <div class="advertising-api-list">
+                    <div class="advertising-api-card">
+                        <img src="soa-logo.png" alt="Advertising Image">
+                        <p>Reach the world's largest audience of developers and technologists.</p>
+                        <button class="btn-secondary">Advertising solutions</button>
+                        <a href="#" class="blue-wline">Build your employer brand</a>
+                    </div>
+                    <div class="advertising-api-card">
+                        <img src="overflow-api.png" alt="API Solutions">
+                        <p>A subscription-based API service that provides continuous access to Stack Overflow’s public dataset to train and fine-tune large language models.</p>
+                        <button class="btn-secondary">API solutions for business</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Work Section -->
+            <h3 class="work-title">Work here</h3>
+            <section class="work">
+                <div class="work-card">
+                    <div class="logo-stackoverflow">
+                        <img src="logo-stackoverflow.png" alt="Stack Overflow Logo">
+                    </div>
+                    <p>Join our mission to help empower the world to develop technology through collective knowledge.</p>
+                    <button class="btn-secondary">Careers at Stack Overflow</button>
+                </div>
+                <div class="work-image">
+                    <img src="illo-home-careers.png" alt="Home Careers Image">
+                </div>
+            </section>
+
+
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+    </footer>
+
+</body>
+</html>

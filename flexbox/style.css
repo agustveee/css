@@ -16,7 +16,7 @@ header {
 /* Main Section */
 main {
     display: flex;
-    gap: 10px; /* Adds space between aside and section */
+    gap: 10px;
 }
 
 /* Sidebar*/
@@ -30,7 +30,7 @@ aside {
 section {
     background-color: #1abc9c;
     height: 300px;
-    flex: 1; /* Takes the remaining space */
+    flex: 1;
 }
 
 /* Footer */
