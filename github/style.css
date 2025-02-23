@@ -26,7 +26,6 @@ body {
     align-items: center;
 }
 
-/* Left Side (GitHub Logo + Links) */
 .nav-left {
     display: flex;
     align-items: center;
@@ -56,7 +55,6 @@ body {
     margin-left: 4px;
 }
 
-/* Right Side (Search + Buttons) */
 .nav-right {
     display: flex;
     align-items: center;
@@ -127,7 +125,6 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Navigation Links */
 .main-nav a {
     color: #b3b3b3;
     text-decoration: none;
@@ -138,12 +135,10 @@ body {
     padding-bottom: 8px;
 }
 
-/* Active Link */
 .main-nav a.active {
     color: white;
 }
 
-/* Underline Effect */
 .main-nav a.active::after {
     content: "";
     display: block;
@@ -155,7 +150,6 @@ body {
     left: 0;
 }
 
-/* Spacing for "Here's what's popular" */
 .popular-section {
     margin-top: 32px;
     margin-left: 14px;
@@ -165,7 +159,6 @@ body {
     color: #ccc;
 }
 
-/* Navigation Container */
 .secondary-nav {
     display: flex;
     justify-content: center;
@@ -174,7 +167,6 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* Navigation Links */
 .secondary-nav a {
     color: #b3b3b3;
     text-decoration: none;
@@ -185,7 +177,6 @@ body {
     padding-bottom: 8px;
 }
 
-/* Active Link */
 .secondary-nav a.active {
     color: white;
 }
@@ -197,34 +188,29 @@ body {
     margin: 0 auto;
 }
 
-/* Section Title */
 .section-title {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-/* Main Content Layout */
 .content {
     display: flex;
     gap: 24px;
-    max-width: 1280px; /* Ensures layout stays within a reasonable width */
-    margin: 0 auto; /* Centers the layout */
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
-/* Left: Trending Repos */
 .trending {
     flex: 2;
     padding: 16px;
 }
 
-/* Right: Sidebar */
 .sidebar {
     flex: 1;
-    max-width: 320px; /* Keeps sidebar within 30-35% width */
+    max-width: 320px;
 }
 
-/* Card Styling */
 .card {
     background: transparent;
     border: 1px solid white;
@@ -234,7 +220,6 @@ body {
     position: relative;
 }
 
-/* Card Content */
 .card-content {
     padding: 16px;
     display: flex;
@@ -242,7 +227,6 @@ body {
     gap: 0px;
 }
 
-/* Tag and Comment Icon */
 .tag-container {
     display: flex;
     align-items: center; 
@@ -269,7 +253,6 @@ body {
     line-height: 1.6;
 }
 
-/* Game Off Image */
 .game-off-2024 {
     padding: 0;
     margin: 0;
@@ -296,7 +279,6 @@ body {
     margin-top: 20px;
 }
 
-/* Collection Card */
 .collection-card {
     background: transparent;
     padding: 16px;
@@ -308,7 +290,6 @@ body {
     align-items: center;
 }
 
-/* Collection Content */
 .collection-content {
     display: flex;
     flex-direction: column;
@@ -316,36 +297,31 @@ body {
     width: 100%;
 }
 
-/* Collection Header: Image and "Collection recommended by GitHub" */
 .collection-header {
     display: flex;
     align-items: center;
     gap: 4px;
 }
 
-/* Collection Image */
 .collection-img {
-    width: 50px; /* Adjust size as needed */
+    width: 50px;
     height: 50px;
     border-radius: 8px;
     object-fit: cover;
-    flex-shrink: 0; /* Prevents image from shrinking */
+    flex-shrink: 0;
 }
 
-/* Collection Recommendation Text */
 .collection {
     font-size: 14px;
     color: white;
 }
 
-/* Collection Text Content */
 .collection-text {
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
-/* Hashtag Icon */
 .hashtag-icon {
     width: 100px;
     height: 100px;
@@ -370,7 +346,6 @@ body {
     padding: 0px;
 }
 
-/* Collection Title */
 .collection-text h3 {
     font-size: 25px;
     color: #58a6ff;
@@ -379,7 +354,6 @@ body {
     margin-bottom: 0px;
 }
 
-/* Collection Description */
 .collection-text p {
     font-size: 14px;
     color: white;
@@ -387,7 +361,6 @@ body {
     margin-bottom: 15px;
 }
 
-/* Collection Link */
 .collection-link {
     font-size: 14px;
     color: #58a6ff;
@@ -414,17 +387,14 @@ body {
     margin-bottom: 16px;
 }
 
-
-/* Trending Panel */
 .trending-panel {
-    background-color: #161b22; /* Dark GitHub-like background */
-    border: 1px solid #30363d; /* Subtle border */
+    background-color: #161b22;
+    border: 1px solid #30363d;
     border-radius: 8px;
     padding: 16px;
-    width: 280px; /* Adjust width as needed */
+    width: 280px;
 }
 
-/* Panel Title */
 .panel-title {
     display: flex;
     align-items: center;
@@ -435,23 +405,20 @@ body {
     gap: 8px;
 }
 
-/* Trending Icon */
 .trending-icon {
     width: 16px;
     height: 16px;
 }
 
-/* Trending Panel */
 .trending-panel {
-    background-color: #161b22; /* Dark GitHub-like background */
-    border: 1px solid #30363d; /* Subtle border */
+    background-color: #161b22; 
+    border: 1px solid #30363d; 
     border-radius: 8px;
     padding: 16px;
-    width: 210px; /* Adjust width as needed */
+    width: 210px;
     height: fit-content;
 }
 
-/* Panel Title */
 .panel-title {
     display: flex;
     align-items: center;
@@ -467,20 +434,17 @@ body {
     margin: 0 auto;
 }
 
-/* Trending Icon */
 .trending-icon {
     width: 16px;
     height: 16px;
 }
 
-/* Developer List */
 .developer-list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-/* Developer Item */
 .developer-item {
     display: flex;
     align-items: center;
@@ -489,12 +453,10 @@ body {
     border-bottom: 1px solid #30363d;
 }
 
-/* Last Developer Item (Remove Border) */
 .developer-item:last-child {
     border-bottom: none;
 }
 
-/* Avatar */
 .avatar {
     width: 40px;
     height: 40px;
@@ -502,13 +464,11 @@ body {
     object-fit: cover;
 }
 
-/* Developer Info */
 .developer-info {
     display: flex;
     flex-direction: column;
 }
 
-/* Developer Name */
 .developer-name {
     font-size: 14px;
     font-weight: bold;
@@ -520,14 +480,12 @@ body {
     text-decoration: underline;
 }
 
-/* Username */
 .username {
     font-size: 12px;
     color: rgba(255, 255, 255, 0.6);
     margin: 2px 0;
 }
 
-/* Repo Name */
 .repo-name {
     display: flex;
     align-items: center;
@@ -536,18 +494,16 @@ body {
     gap: 5px;
 }
 
-/* Repo Icon */
 .repo-icon {
     width: 12px;
     height: 12px;
 }
 
-/* See More Trending Developers */
 .trending-more {
     display: block;
     text-align: center;
     padding-top: 12px;
-    border-top: 1px solid #30363d; /* Border above "See more trending developers" */
+    border-top: 1px solid #30363d;
     margin-top: 12px;
 }
 
@@ -560,31 +516,30 @@ body {
 .trending-more a:hover {
     text-decoration: underline;
 }
-/* Footer Styles */
+
 .footer {
-    background-color: transparent; /* GitHub dark mode background */
+    background-color: transparent;
     color: #8b949e;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 16px;
-    gap: 15px; /* Space between items */
+    gap: 15px;
     font-size: 14px;
-    flex-wrap: wrap; /* Ensures responsiveness */
+    flex-wrap: wrap;
 }
 
-/* GitHub Logo */
 .github-logo {
     width: 20px;
     height: auto;
 }
 
-/* Copyright Text */
+
 .copyright {
     margin: 0;
 }
 
-/* Footer Links */
+/* Footer */
 .footer-links {
     display: flex;
     gap: 12px;
