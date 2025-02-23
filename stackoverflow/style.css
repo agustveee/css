@@ -154,7 +154,6 @@ body {
     padding-left: 40px;
 }
 
-/* Hero Section */
 .hero {
     display: flex;
     align-items: flex-end;
@@ -207,12 +206,11 @@ body {
     text-decoration: none;
 }
 
-/* Services Section */
 .services {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    border: 1px solid #ddd; /* Adding border */
+    border: 1px solid #ddd;
     border-radius: 10px;
     background-color: white;
     padding: 20px;
@@ -238,7 +236,6 @@ body {
     display: block;
 }
 
-/* Left side: Text and buttons */
 .service-card.teams {
     max-width: 50%;
 }
@@ -270,7 +267,6 @@ body {
     text-decoration: underline;
 }
 
-/* Right side: Image */
 .home-teams {
     max-width: 50%;
     display: flex;
@@ -285,14 +281,13 @@ body {
     margin-right: -20px;
 }
 
-/* Overflow AI Section */
 .overflow-ai {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    border: 1px solid #444; /* Subtle border for contrast */
+    border: 1px solid #444;
     border-radius: 10px;
-    background-color: #2d2d2d; /* Dark gray background */
+    background-color: #2d2d2d;
     padding: 20px;
     max-width: 1045px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -311,7 +306,6 @@ body {
     display: block;
 }
 
-/* Left side: Text */
 .service-card {
     max-width: 50%;
 }
@@ -326,7 +320,6 @@ body {
     margin-bottom: 45px;
 }
 
-/* Overflow AI Button */
 .btn-orange {
     background-color: #F48024;
     color: white;
@@ -337,7 +330,6 @@ body {
     cursor: pointer;
 }
 
-/* Right side: Image */
 .home-overflowai {
     max-width: 50%;
     display: flex;
@@ -352,7 +344,6 @@ body {
     margin-right: -20px;
 }
 
-/* Advertising & API Section */
 .advertising-api-section {
     max-width: 1045px; 
     margin: 0 auto;
@@ -360,14 +351,12 @@ body {
     background-color: white;
 }
 
-/* List container */
 .advertising-api-list {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
 
-/* Individual Cards */
 .advertising-api-card {
     flex: 1; 
     text-align: left;
@@ -378,21 +367,18 @@ body {
     border: 1px solid #ddd;
 }
 
-/* Images inside cards */
 .advertising-api-card img {
     width: 220px;
     height: auto;
     display: block;
 }
 
-/* Paragraph styles */
 .advertising-api-card p {
     font-size: 16px;
     color: #333;
     margin-bottom: 10px;
 }
 
-/* Buttons */
 .advertising-api-card .btn-secondary {
     background-color: #0074cc;
     color: white;
@@ -403,7 +389,6 @@ body {
     cursor: pointer;
 }
 
-/* Link styles */
 .blue-wline {
     margin-top: 10px;
     color: #0074cc;
@@ -411,7 +396,6 @@ body {
     font-size: 14px;
 }
 
-/* Work Section */
 .work {
     display: flex;
     justify-content: space-between;
@@ -427,7 +411,6 @@ body {
     gap: 15px;
 }
 
-/* Stack Overflow Logo */
 .logo-stackoverflow {
     text-align: left;
     margin-bottom: 15px;
@@ -440,7 +423,6 @@ body {
     margin-bottom: 15px;
 }
 
-/* Left side: Text content */
 .work-card {
     max-width: 50%;
     display: flex;
@@ -450,11 +432,10 @@ body {
 
 .work-card p {
     font-size: 17px;
-    color: black; /* Matches dark theme */
+    color: black;
     margin: 0;
 }
 
-/* Button styling */
 .work-card .btn-secondary {
     background-color: #0074cc;
     color: #fff;
@@ -466,7 +447,6 @@ body {
     margin-top: 10px;
 }
 
-/* Right side: Image */
 .work-image {
     position: absolute;
     top: -70px;
