@@ -1,0 +1,601 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* Header */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 60px;
+    padding: 0px 16px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.nav-container {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Left Side (GitHub Logo + Links) */
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left img {
+    width: 32px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 16px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links img {
+    width: 10px;
+    margin-left: 4px;
+}
+
+/* Right Side (Search + Buttons) */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.search-bar {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    width: 330px;
+    position: relative;
+}
+
+.search-bar .search-icon {
+    width: 16px;
+    margin-right: 6px;
+}
+
+.search-bar input {
+    background: none;
+    border: none;
+    color: white;
+    flex-grow: 1;
+    outline: none;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.search-bar .slash-icon {
+    width: 16px;
+    margin-left: auto;
+}
+
+.btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 8px 12px;
+}
+
+.btn-primary {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Navigation Container */
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Navigation Links */
+.main-nav a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+/* Active Link */
+.main-nav a.active {
+    color: white;
+}
+
+/* Underline Effect */
+.main-nav a.active::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+
+/* Spacing for "Here's what's popular" */
+.popular-section {
+    margin-top: 32px;
+    margin-left: 14px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ccc;
+}
+
+/* Navigation Container */
+.secondary-nav {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Navigation Links */
+.secondary-nav a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+/* Active Link */
+.secondary-nav a.active {
+    color: white;
+}
+
+/* Main Content */
+.container {
+    max-width: 980px;
+    padding: 24px 16px;
+    margin: 0 auto;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Main Content Layout */
+.content {
+    display: flex;
+    gap: 24px;
+    max-width: 1280px; /* Ensures layout stays within a reasonable width */
+    margin: 0 auto; /* Centers the layout */
+}
+
+/* Left: Trending Repos */
+.trending {
+    flex: 2;
+    padding: 16px;
+}
+
+/* Right: Sidebar */
+.sidebar {
+    flex: 1;
+    max-width: 320px; /* Keeps sidebar within 30-35% width */
+}
+
+/* Card Styling */
+.card {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+    position: relative;
+}
+
+/* Card Content */
+.card-content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+/* Tag and Comment Icon */
+.tag-container {
+    display: flex;
+    align-items: center; 
+    gap: 6px;
+}
+
+.tag {
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+}
+
+.card-content h3 {
+    font-size: 25px;
+    margin: 8px 0;
+    color: #58a6ff;
+    font-size: normal;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* Game Off Image */
+.game-off-2024 {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.game-off-2024 img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.comment-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+/* Trending Repositories Section */
+.trending-repos {
+    margin-top: 20px;
+}
+
+/* Collection Card */
+.collection-card {
+    background: transparent;
+    padding: 16px;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+/* Collection Content */
+.collection-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+/* Collection Header: Image and "Collection recommended by GitHub" */
+.collection-header {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* Collection Image */
+.collection-img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+    border-radius: 8px;
+    object-fit: cover;
+    flex-shrink: 0; /* Prevents image from shrinking */
+}
+
+/* Collection Recommendation Text */
+.collection {
+    font-size: 14px;
+    color: white;
+}
+
+/* Collection Text Content */
+.collection-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* Hashtag Icon */
+.hashtag-icon {
+    width: 100px;
+    height: 100px;
+    padding: 8px;
+    background-color: #0d1117;
+    border-radius: 8px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.collection-body {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.collection-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 0px;
+}
+
+/* Collection Title */
+.collection-text h3 {
+    font-size: 25px;
+    color: #58a6ff;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+/* Collection Description */
+.collection-text p {
+    font-size: 14px;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+/* Collection Link */
+.collection-link {
+    font-size: 14px;
+    color: #58a6ff;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.collection-link:hover {
+    text-decoration: underline;
+}
+
+/* Sidebar Trending Developers */
+.sidebar {
+    width: 220px; 
+    padding: 16px;
+    background-color: #161b22; 
+    border-radius: 8px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.sidebar h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+
+/* Trending Panel */
+.trending-panel {
+    background-color: #161b22; /* Dark GitHub-like background */
+    border: 1px solid #30363d; /* Subtle border */
+    border-radius: 8px;
+    padding: 16px;
+    width: 280px; /* Adjust width as needed */
+}
+
+/* Panel Title */
+.panel-title {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 12px;
+    gap: 8px;
+}
+
+/* Trending Icon */
+.trending-icon {
+    width: 16px;
+    height: 16px;
+}
+
+/* Trending Panel */
+.trending-panel {
+    background-color: #161b22; /* Dark GitHub-like background */
+    border: 1px solid #30363d; /* Subtle border */
+    border-radius: 8px;
+    padding: 16px;
+    width: 210px; /* Adjust width as needed */
+    height: fit-content;
+}
+
+/* Panel Title */
+.panel-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 12px;
+    gap: 8px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #30363d;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Trending Icon */
+.trending-icon {
+    width: 16px;
+    height: 16px;
+}
+
+/* Developer List */
+.developer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Developer Item */
+.developer-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid #30363d;
+}
+
+/* Last Developer Item (Remove Border) */
+.developer-item:last-child {
+    border-bottom: none;
+}
+
+/* Avatar */
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Developer Info */
+.developer-info {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Developer Name */
+.developer-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.developer-name:hover {
+    text-decoration: underline;
+}
+
+/* Username */
+.username {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 2px 0;
+}
+
+/* Repo Name */
+.repo-name {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    gap: 5px;
+}
+
+/* Repo Icon */
+.repo-icon {
+    width: 12px;
+    height: 12px;
+}
+
+/* See More Trending Developers */
+.trending-more {
+    display: block;
+    text-align: center;
+    padding-top: 12px;
+    border-top: 1px solid #30363d; /* Border above "See more trending developers" */
+    margin-top: 12px;
+}
+
+.trending-more a {
+    font-size: 14px;
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.trending-more a:hover {
+    text-decoration: underline;
+}
+/* Footer Styles */
+.footer {
+    background-color: transparent; /* GitHub dark mode background */
+    color: #8b949e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    gap: 15px; /* Space between items */
+    font-size: 14px;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+/* GitHub Logo */
+.github-logo {
+    width: 20px;
+    height: auto;
+}
+
+/* Copyright Text */
+.copyright {
+    margin: 0;
+}
+
+/* Footer Links */
+.footer-links {
+    display: flex;
+    gap: 12px;
+}
+
+.footer-links a {
+    color: #8b949e;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}

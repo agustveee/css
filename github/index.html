@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Explore</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            
+            <!-- Left Side: GitHub Logo and Navigation Links -->
+            <div class="nav-left">
+                <a href="https.//github.com">
+                    <img src="github-logo.png" alt="GitHub Logo">
+                </a>
+                <nav class="nav-links">
+                    <a href="#">Product <img src="down-arrowhead.png" alt="Arrow"></a>
+                    <a href="#">Solutions <img src="down-arrowhead.png" alt="Arrow"></a>
+                    <a href="#">Resources <img src="down-arrowhead.png" alt="Arrow"></a>
+                    <a href="#">Open Source <img src="down-arrowhead.png" alt="Arrow"></a>
+                    <a href="#">Enterprise <img src="down-arrowhead.png" alt="Arrow"></a>
+                    <a href="#">Pricing</a> <!-- No dropdown arrow for Pricing -->
+                </nav>
+            </div>
+
+            <!-- Right Side: Search Bar, Sign In, Sign Up -->
+            <div class="nav-right">
+                <div class="search-bar">
+                    <img src="search-1.png" alt="Search Icon" class="search-icon">
+                    <input type="text" class="search-box" placeholder="Search or jump to...">
+                    <img src="search-2.png" alt="Slash Key" class="slash-icon">
+                </div>
+                <button class="btn">Sign in</button>
+                <button class="btn-primary">Sign up</button>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Main Content -->
+    <main class="container">
+        
+        <!-- Main Navigation -->
+        <nav class="main-nav">
+            <a href="#" class="active">Explore</a>
+            <a href="#">Topics</a>
+            <a href="#">Trending</a>
+            <a href="#">Collections</a>
+            <a href="#">Events</a>
+            <a href="#">GitHub Sponsors</a>
+        </nav>
+
+        <h2 class="popular-section">Here's what's popular on GitHub today...</h2>
+
+        <!-- Left Container -->
+        <div class="content">
+            <section class="trending">
+                <div class="card">
+                    <div class="game-off-2024">
+                        <img src="game-off-2024.png" alt="Game Off">
+                    </div>
+                 
+                    <div class="card-content">
+                        <div class="tag-container">
+                            <img src="comment.png" alt="Comment" class="comment-icon">
+                            <p class="tag">Game Bytes</p>
+                        </div>
+                        <h3>Top-rated games from Game Off 2024</h3>
+                        <p>Another year, another incredible GitHub Game Off—and this one was secrets-ational! Over 500 submissions, participants turned the theme of "secrets" into an extraordinary showcase of creativity, humor, and mind-boggling mechanics. Play the top-rated games now!</p>
+                    </div>
+                </div>
+
+                <section class="trending-repos">
+                    <div class="collection-card">
+                        <div class="collection-content">
+                            <div class="collection-header">
+                                <img src="comment.png" alt="comment" class="comment-icon">
+                                <p class="collection">Collection recommended by GitHub</p>
+                            </div>
+                            <div class="collection-body">
+                                <img src="hashtag.png" alt="Hashtag" class="hashtag-icon">
+                                <div class="collection-text">
+                                    <h3>Game Engines</h3>
+                                    <p>Frameworks for building games across multiple platforms.</p>
+                                    <a href="#" class="collection-link">See the 57 items in this collection &gt;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>                               
+            </section>                
+                
+            <!-- Right Container -->
+            <aside class="trending-panel">
+                <h3 class="panel-title">
+                    <img src="trending.png" alt="Trending Icon" class="trending-icon">
+                    Trending developers
+                </h3>
+                <ul class="developer-list">
+                    <li class="developer-item">
+                        <img src="sebastian.jfif" alt="Avatar" class="avatar">
+                        <div class="developer-info">
+                            <a href="#" class="developer-name">Sebastian Muszynski</a>
+                            <p class="username">syssi</p>
+                            <p class="repo-name">
+                                <img src="bmark" alt="Repo Icon" class="repo-icon">
+                                esphome-jk-bms
+                            </p>
+                        </div>
+                    </li>
+                    <li class="developer-item">
+                        <img src="eric.jfif" alt="Avatar" class="avatar">
+                        <div class="developer-info">
+                            <a href="#" class="developer-name">Eric Buehler</a>
+                            <p class="username">EricBuehler</p>
+                            <p class="repo-name">mistral.rs</p>
+                        </div>
+                    </li>
+                    <li class="developer-item">
+                        <img src="bagheera.jfif" alt="Avatar" class="avatar">
+                        <div class="developer-info">
+                            <a href="#" class="developer-name">Bagheera</a>
+                            <p class="username">bghira</p>
+                            <p class="repo-name">SimpleTuner</p>
+                        </div>
+                    </li>
+                    <li class="developer-item">
+                        <img src="jack.png" alt="Avatar" class="avatar">
+                        <div class="developer-info">
+                            <a href="#" class="developer-name">Jack Lloyd</a>
+                            <p class="username">randombit</p>
+                            <p class="repo-name">botan</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="trending-more">
+                    <a href="#">See more trending developers</a>
+                </div>        
+            </aside>            
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <img src="github-logo.png" alt="GitHub Logo" class="github-logo">
+        <p>© 2025 GitHub, Inc.</p>
+        <nav class="footer-links">
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Security</a>
+            <a href="#">Status</a>
+            <a href="#">Docs</a>
+            <a href="#">Content</a>
+            <a href="#">Manage cookies</a>
+        </nav>
+        <p>Do not share my personal information</p>
+    </footer>
+
+</body>
+</html>
