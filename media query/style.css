@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+header {
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.header-logo h1 {
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-nav button {
+    background: #2a2a2a;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    height: 42px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.header-nav button img {
+    width: 37px;
+    height: 37px;
+}
+
+.header-nav button:hover {
+    background: #444;
+}
+
+.header-nav img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    padding: 5px;
+    background: transparent;
+    object-fit: cover;
+    display: flex;
+}
+
+
+/* Main Content */
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 80px;
+}
+
+/* Card Layout */
+.favorites {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(33.33% - 20px);
+    min-width: 280px;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.card p {
+    color: #555;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 1023px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
+}
