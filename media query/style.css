@@ -85,15 +85,12 @@ header {
     display: flex;
 }
 
-
-/* Main Content */
 main {
     width: 100%;
     max-width: 1200px;
     margin-top: 80px;
 }
 
-/* Card Layout */
 .favorites {
     display: flex;
     flex-wrap: wrap;
@@ -132,7 +129,6 @@ main {
     padding: 0 10px;
 }
 
-/* Responsive Design */
 @media (max-width: 1023px) {
     .card {
         width: calc(50% - 20px);
