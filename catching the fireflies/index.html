@@ -41,20 +41,18 @@
     </div>
 
     <script>
-        // Select all fireflies
         let fireflies = document.querySelectorAll(".firefly");
 
-        // Attach event listener to each firefly
         fireflies.forEach(firefly => {
             firefly.addEventListener("click", function() {
-                this.style.animation = "none"; // Stop fluttering
-                this.style.transform = "scale(0.5) rotate(0deg)"; // Shrink firefly
+                this.style.animation = "none";
+                this.style.transform = "scale(0.5) rotate(0deg)";
                 setTimeout(() => {
-                    this.style.visibility = "hidden"; // Disappear
+                    this.style.visibility = "hidden";
                     setTimeout(() => {
                         this.style.visibility = "visible";
-                        this.style.transform = "scale(1) rotate(-10deg)"; // Return to normal size with tilt
-                        this.style.animation = "tilt 1s infinite alternate ease-in-out"; // Resume fluttering
+                        this.style.transform = "scale(1) rotate(-10deg)";
+                        this.style.animation = "tilt 1s infinite alternate ease-in-out";
                     }, 1000);
                 }, 300);
             });
